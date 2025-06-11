@@ -18,10 +18,11 @@
   },
   "packageManager": "npm@11.1.0",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "dependencies": {
-    "next-auth": "^4.24.11"
+    "next-auth": "^4.24.11",
+    "next-transpile-modules": "^10.0.1"
   }
 }
